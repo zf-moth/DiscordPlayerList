@@ -1,0 +1,19 @@
+# Name of the addon
+name = "Discord Player List"
+
+# Version of the addon
+version = "1.0.13"
+# Path to the main class of the addon
+# Example: "com.example.exampleaddon.ExampleAddon"
+#
+# If this parameter is missing, your addon will not load
+classPath = "me.moth.DiscordPlayerList.PlayerListAddon"
+
+# Author of the Addon (optional)
+author = "MotH"
+
+# Description of the Addon (optional)
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur tellus semper, elementum magna ac, tincidunt risus."
+
+# Required parameter to specify if the addon is compatible with this API version
+APIVersion = 3
