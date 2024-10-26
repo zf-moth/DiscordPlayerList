@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.moth'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.erdbeerbaerlp.de/repository/maven-public/' }
+}
+
+configurations.all {
+    resolutionStrategy {
+        cacheChangingModulesFor 1, 'minutes'
+    }
+}
+dependencies {
+    compileOnly 'de.erdbeerbaerlp:dcintegration.common:3.0.0'
+    compileOnly group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.17.1'
+}

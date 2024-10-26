@@ -1,0 +1,17 @@
+# Name of the addon
+name = "Discord Player List"
+
+# Version of the addon
+version = "1.0.0"
+
+# Path to the main class of the addon
+classPath = "me.moth.DiscordPlayerList.PlayerListAddon"
+
+# Author of the Addon (optional)
+author = "MotH"
+
+# Description of the Addon (optional)
+description = "A simple addon that creates a list of online players under a Discord category."
+
+# Required parameter to specify if the addon is compatible with this API version
+APIVersion = 3
